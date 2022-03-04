@@ -15,6 +15,8 @@ public class ExampleStringBuilder {
         long start = System.currentTimeMillis();
         String[] split = strFromSB.split(" ");
 
+        System.out.println(System.lineSeparator());
+
         // reyiues ertudore eitfuceso erustchjs ertudore
     }
 }
