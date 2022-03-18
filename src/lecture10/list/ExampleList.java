@@ -15,6 +15,6 @@ public class ExampleList {
         System.out.println();
         System.out.println(list.get(2));
 
-        
+
     }
 }
