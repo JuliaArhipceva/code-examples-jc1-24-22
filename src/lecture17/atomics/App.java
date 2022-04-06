@@ -1,4 +1,6 @@
-package lecture15.raceconditions;
+package lecture17.atomics;
+
+import lecture15.raceconditions.Counter;
 
 public class App {
 

@@ -1,4 +1,6 @@
-package lecture15.raceconditions;
+package lecture17.locks;
+
+import lecture15.raceconditions.Counter;
 
 public class App {
 
@@ -14,7 +16,7 @@ public class App {
     }
 
     private static int run() throws InterruptedException {
-        Counter counter = new Counter();
+        lecture15.raceconditions.Counter counter = new Counter();
         Runnable runnable = counter::increment;
 
         Thread[] threads = new Thread[THREAD_COUNT];
